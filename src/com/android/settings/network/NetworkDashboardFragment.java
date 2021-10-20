@@ -90,6 +90,11 @@ public class NetworkDashboardFragment extends DashboardFragment implements
 
         controllers.add(vpnPreferenceController);
         controllers.add(privateDnsPreferenceController);
+
+        ConnectivityCheckPreferenceController connectivityCheck =
+                new ConnectivityCheckPreferenceController(context);
+        controllers.add(connectivityCheck);
+
         return controllers;
     }
 
