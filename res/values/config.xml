@@ -848,4 +848,7 @@
 
     <!-- Disable the Testing Setting Menu for user builds, i.e only display the menu on userdebug/eng builds -->
     <bool name="config_hide_testing_settings_menu_for_user_builds">false</bool>
+
+    <!-- Does the device support color inversion -->
+    <bool name="config_displayInversionAvailable">true</bool>
 </resources>
