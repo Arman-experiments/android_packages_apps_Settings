@@ -528,4 +528,9 @@ public class Settings extends SettingsActivity {
     public static class SmartPixelsActivity extends SettingsActivity {}
 
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+    /** Personalizations Activities **/
+    public static class PersonalizationsActivity extends SettingsActivity {}
+    public static class PersonalizationsThemesActivity extends SettingsActivity {}
+    public static class PersonalizationsLockscreenActivity extends SettingsActivity {}
+    public static class PersonalizationsToolboxActivity extends SettingsActivity {}
 }
