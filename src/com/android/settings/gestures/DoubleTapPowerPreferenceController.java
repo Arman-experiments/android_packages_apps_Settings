@@ -51,7 +51,7 @@ public class DoubleTapPowerPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return isGestureAvailable(mContext) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
