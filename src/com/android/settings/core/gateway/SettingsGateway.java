@@ -421,6 +421,15 @@ public class SettingsGateway {
             LockScreen.class.getName(),
             Themes.class.getName(),
             Toolbox.class.getName(),
+            MonetSettings.class.getName(),
+            com.rising.settings.fragments.ui.fonts.FontPickerPreview.class.getName(),
+            Notifications.class.getName(),
+            Sound.class.getName(),
+            com.rising.settings.fragments.ui.IconShapes.class.getName(),
+            StatusBar.class.getName(),
+            QuickSettings.class.getName(),
+            Gestures.class.getName(),
+            com.rising.settings.fragments.lockscreen.LockClockFontsPickerPreview.class.getName(),
             RunningServices.class.getName(),
             VolumeSteps.class.getName()
     };
@@ -473,6 +482,15 @@ public class SettingsGateway {
             Settings.PersonalizationsLockscreenActivity.class.getName(),
             Settings.PersonalizationsToolboxActivity.class.getName(),
             Settings.PersonalizationsThemesActivity.class.getName(),
+            Settings.PersonalizationsColorsActivity.class.getName(),
+            Settings.PersonalizationsFontsActivity.class.getName(),
+            Settings.PersonalizationsSoundsActivity.class.getName(),
+            Settings.PersonalizationsIconsActivity.class.getName(),
+            Settings.PersonalizationsNotificationsActivity.class.getName(),
+            Settings.PersonalizationsStatusBarActivity.class.getName(),
+            Settings.PersonalizationsQuickSettingsActivity.class.getName(),
+            Settings.PersonalizationsGesturesActivity.class.getName(),
+            Settings.PersonalizationsClockFacesActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName()
     };
 }
